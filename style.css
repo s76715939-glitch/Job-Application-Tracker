@@ -35,7 +35,7 @@ body {
 .counter-card {
   background-color: #fff;
   border: 1px solid #f1f2f4;
-  border-radius: 10px;
+  border-radius: 8px;
   flex: 1;
   padding: 20px;
   display: flex;
@@ -59,4 +59,49 @@ body {
 }
 #total-reject-count {
   color: #ef4444;
+}
+.menu-heading-section {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #002c5c;
+}
+.jobs-count-of {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #64748b;
+}
+.menu-section {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto 16px;
+}
+.menu-items {
+  list-style: none;
+  display: flex;
+}
+.menu-item {
+  background-color: #fff;
+  color: #64748b;
+  border: 1px solid #f1f2f4;
+  width: 80px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 10px 0;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.menu-active {
+  background-color: #3b82f6;
+  color: #fff;
+  cursor: default;
 }
