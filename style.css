@@ -24,7 +24,7 @@ body {
   color: #002c5c;
   font-size: 2rem;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 32px;
   margin-bottom: 20px;
 }
 .counter-section {
@@ -94,7 +94,7 @@ body {
   width: 80px;
   font-size: 0.75rem;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 8px 0;
   border-radius: 4px;
   margin-right: 8px;
   text-align: center;
@@ -104,4 +104,84 @@ body {
   background-color: #3b82f6;
   color: #fff;
   cursor: default;
+}
+.card-section {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.job-card {
+  background-color: #fff;
+  border: 1px solid #f1f2f4;
+  border-radius: 8px;
+  padding: 24px;
+}
+.job-name {
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-weight: 600;
+  color: #002c5c;
+  margin-bottom: 6px;
+}
+.job-post {
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 400;
+  color: #64748b;
+}
+.job-details {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #64748b;
+  margin: 20px 0;
+}
+.btn {
+  line-height: 1;
+  padding: 11px 12px 9px 12px;
+  border: 0;
+  outline: 0;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn-normal {
+  background-color: #eef4ff;
+  color: #002c5c;
+  cursor: default;
+}
+.job-description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #323b49;
+  margin: 8px 0 20px;
+}
+.button-container {
+  display: flex;
+  gap: 8px;
+}
+.btn-hover-green {
+  background-color: #fff;
+  color: #10b981;
+  font-weight: 600;
+  border: 1px solid #10b981;
+}
+.btn-hover-green:hover {
+  background: #10b981;
+  color: #fff;
+}
+.btn-hover-red {
+  background-color: #fff;
+  color: #ef4444;
+  font-weight: 600;
+  border: 1px solid #ef4444;
+}
+.btn-hover-red:hover {
+  background: #ef4444;
+  color: #fff;
 }
