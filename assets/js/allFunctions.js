@@ -13,6 +13,13 @@ const renderRejecedJobCount = () => {
 renderTotalCount();
 renderInterviewJobCount();
 renderRejecedJobCount();
+const noJobsPreview = `
+        <div class="no-job-card">
+        <img src="./assets/images/jobs.png" alt="no jobs">
+        <h2>No jobs available</h2>
+        <p>Check back soon for new job opportunities</p>
+        </div>
+        `;
 const renderJobs = () => {
   menuItem.forEach((menu) => {
     if (menu.getAttribute("id") === "all") {
@@ -22,13 +29,7 @@ const renderJobs = () => {
   jobCountOf.innerHTML = `${jobs.length} jobs`;
   cardSection.innerHTML = "";
   if (jobs.length === 0) {
-    cardSection.innerHTML = `
-        <div class="no-job-card">
-        <img src="./assets/images/jobs.png" alt="">
-        <h2>No jobs available</h2>
-        <p>Check back soon for new job opportunities</p>
-        </div>
-        `;
+    cardSection.innerHTML = noJobsPreview;
     return;
   }
   jobs.forEach((job, i) => {
@@ -53,7 +54,7 @@ const renderJobs = () => {
                 }
             </div>
             <div class="delete-card">
-                <img src="./assets/images/trash.png" alt="">
+                <img src="./assets/images/trash.png" alt="delete button">
             </div>
             </div>
     `;
@@ -71,13 +72,7 @@ const renderInterviewJobs = () => {
   cardSection.innerHTML = "";
   if (interviewJobCount.length === 0) {
     jobCountOf.innerHTML = "0 jobs";
-    cardSection.innerHTML = `
-        <div class="no-job-card">
-        <img src="./assets/images/jobs.png" alt="">
-        <h2>No jobs available</h2>
-        <p>Check back soon for new job opportunities</p>
-        </div>
-        `;
+    cardSection.innerHTML = noJobsPreview;
     return;
   }
   jobs
@@ -104,7 +99,7 @@ const renderInterviewJobs = () => {
                 }
             </div>
             <div class="delete-card">
-                <img src="./assets/images/trash.png" alt="">
+                <img src="./assets/images/trash.png" alt="delete button">
             </div>
             </div>
     `;
@@ -122,13 +117,7 @@ const renderRejectedJobs = () => {
   cardSection.innerHTML = "";
   if (rejectedJobCount.length === 0) {
     jobCountOf.innerHTML = "0 jobs";
-    cardSection.innerHTML = `
-        <div class="no-job-card">
-        <img src="./assets/images/jobs.png" alt="">
-        <h2>No jobs available</h2>
-        <p>Check back soon for new job opportunities</p>
-        </div>
-        `;
+    cardSection.innerHTML = noJobsPreview;
     return;
   }
   jobs
@@ -155,7 +144,7 @@ const renderRejectedJobs = () => {
                 }
             </div>
             <div class="delete-card">
-                <img src="./assets/images/trash.png" alt="">
+                <img src="./assets/images/trash.png" alt="delete button">
             </div>
             </div>
     `;
