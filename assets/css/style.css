@@ -142,19 +142,23 @@ body {
   padding: 24px;
   position: relative;
   margin-bottom: 16px;
+  opacity: 0;
+  transform: translateX(-8px);
+  animation: slideIn 0.4s ease-out forwards;
   transition: 0.2s;
 }
-
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .job-card-interview {
   border-left: 5px solid #10b981;
 }
 
 .job-card-rejected {
   border-left: 5px solid #ef4444;
-}
-
-.job-card:hover {
-  transform: translateY(-2px);
 }
 
 .company-name {

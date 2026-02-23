@@ -10,7 +10,7 @@ let jobs = [
     },
     description:
       "Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.",
-    status: "interview",
+    status: false,
   },
   {
     companyName: "TechHive Solutions",
@@ -23,7 +23,7 @@ let jobs = [
     },
     description:
       "Develop responsive websites and optimize performance for local and international clients.",
-    status: "interview",
+    status: false,
   },
   {
     companyName: "CloudNest Ltd.",
@@ -36,7 +36,7 @@ let jobs = [
     },
     description:
       "Work on scalable backend APIs and modern frontend frameworks to deliver SaaS products.",
-    status: "rejected",
+    status: false,
   },
   {
     companyName: "BrightApps Inc.",
@@ -49,7 +49,7 @@ let jobs = [
     },
     description:
       "Design and maintain Android applications with a focus on user experience and performance.",
-    status: "rejected",
+    status: false,
   },
   {
     companyName: "NextGen Webworks",
@@ -127,6 +127,6 @@ let jobs = [
     },
     description:
       "Build healthcare apps for iOS devices, ensuring compliance with medical data standards.",
-    status: "rejected",
+    status: false,
   },
 ];

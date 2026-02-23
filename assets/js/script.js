@@ -5,8 +5,13 @@ const menuContainer = document.querySelector(".menu-items");
 const menuItem = menuContainer.querySelectorAll(".menu-item");
 menuContainer.addEventListener("click", (e) => {
   if (e.target.classList.contains("menu-item")) {
-    menuItem.forEach((i) => i.classList.remove("menu-active"));
-  }
+    if (e.target.classList.contains("menu-active")) {
+      return;
+    } else {
+      menuItem.forEach((i) => i.classList.remove("menu-active"));
+    }
+  } else return;
+
   if (e.target.getAttribute("id") === "all") {
     renderJobs();
   } else if (e.target.getAttribute("id") === "interview") {
