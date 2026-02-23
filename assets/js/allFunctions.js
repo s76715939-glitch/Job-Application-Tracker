@@ -37,7 +37,7 @@ const renderJobs = () => {
             <div class="job-card ${job.status === "interview" ? "job-card-interview" : ""} ${job.status === "rejected" ? "job-card-rejected" : ""}" data-index="${originalIndex}">
             <h2 class="company-name">${job.companyName}</h2>
             <p class="job-post">${job.position}</p>
-            <div class="job-details">${job.location}  •  ${job.type}  •  $${job.salary.from} - $${job.salary.to}</div>
+            <div class="job-details">${job.location}&nbsp;&nbsp;•&nbsp;&nbsp;${job.type}&nbsp;&nbsp;•&nbsp;&nbsp;$${job.salary.from.toLocaleString()} - $${job.salary.to.toLocaleString()}</div>
             <button class="status ${job.status === "interview" ? "status-green" : ""} ${job.status === "rejected" ? "status-red" : ""}"> ${job.status === false ? "not applied" : job.status} </button>
             <p class="job-description">${job.description}</p>
             <div class="button-container">
@@ -88,7 +88,7 @@ const renderInterviewJobs = () => {
             <div class="job-card job-card-interview" data-index="${originalIndex}">
             <h2 class="company-name">${job.companyName}</h2>
             <p class="job-post">${job.position}</p>
-            <div class="job-details">${job.location}  •  ${job.type}  •  $${job.salary.from} - $${job.salary.to}</div>
+            <div class="job-details">${job.location}&nbsp;&nbsp;•&nbsp;&nbsp;${job.type}&nbsp;&nbsp;•&nbsp;&nbsp;$${job.salary.from.toLocaleString()} - $${job.salary.to.toLocaleString()}</div>
             <button class="status ${job.status === "interview" ? "status-green" : ""} ${job.status === "rejected" ? "status-red" : ""}"> ${job.status === false ? "not applied" : job.status} </button>
             <p class="job-description">${job.description}</p>
             <div class="button-container">
@@ -139,7 +139,7 @@ const renderRejectedJobs = () => {
             <div class="job-card job-card-rejected" data-index="${originalIndex}">
             <h2 class="company-name">${job.companyName}</h2>
             <p class="job-post">${job.position}</p>
-            <div class="job-details">${job.location}  •  ${job.type}  •  $${job.salary.from} - $${job.salary.to}</div>
+            <div class="job-details">${job.location}&nbsp;&nbsp;•&nbsp;&nbsp;${job.type}&nbsp;&nbsp;•&nbsp;&nbsp;$${job.salary.from.toLocaleString()} - $${job.salary.to.toLocaleString()}</div>
             <button class="status ${job.status === "interview" ? "status-green" : ""} ${job.status === "rejected" ? "status-red" : ""}"> ${job.status === false ? "not applied" : job.status} </button>
             <p class="job-description">${job.description}</p>
             <div class="button-container">

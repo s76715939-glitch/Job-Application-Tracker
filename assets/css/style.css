@@ -19,7 +19,7 @@ body {
 }
 
 .top-section {
-  width: 90%;
+  width: 95%;
   max-width: 1100px;
   padding: 30px 0;
   margin: 0 auto;
@@ -75,7 +75,7 @@ body {
 }
 
 .menu-heading-section {
-  width: 90%;
+  width: 95%;
   max-width: 1100px;
   margin: 30px auto;
   display: flex;
@@ -96,7 +96,7 @@ body {
 }
 
 .menu-section {
-  width: 90%;
+  width: 95%;
   max-width: 1100px;
   margin: 0 auto 16px;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .card-section {
-  width: 90%;
+  width: 95%;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -216,13 +216,6 @@ body {
   border: 1px solid #ef4444;
 }
 
-/* .btn-normal {
-  background-color: #eef4ff;
-  color: #002c5c;
-  cursor: default;
-  font-weight: 500;
-} */
-
 .job-description {
   font-size: 0.875rem;
   font-weight: 400;
@@ -303,4 +296,16 @@ body {
   line-height: 22px;
   font-weight: 400;
   color: #64748b;
+}
+
+@media screen and (max-width: 486px) {
+  .counter-section {
+    flex-direction: column;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .job-details {
+    margin: 10px 0;
+  }
 }
