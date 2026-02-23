@@ -5,11 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .font-geist {
   font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 :root {
   --color-bg: #f8fafc;
   --color-white: #ffffff;
@@ -22,8 +24,11 @@
   --color-green: #10b981;
   --color-red: #ef4444;
   --color-status-bg: #eef4ff;
+  --color-status-bg-green: #c0ffea;
+  --color-status-bg-red: #ffc0c0;
   --color-menu-active: #3b82f6;
 }
+
 .dark {
   --color-bg: #0f172a;
   --color-white: #1e293b;
@@ -36,6 +41,8 @@
   --color-green: #10b981;
   --color-red: #ef4444;
   --color-status-bg: #1e3a8a;
+  --color-status-bg-green: #c0ffea;
+  --color-status-bg-red: #ffc0c0;
   --color-menu-active: #3b82f6;
 }
 
@@ -236,14 +243,14 @@ body {
 }
 
 .status-green {
-  background-color: var(--color-white);
+  background-color: var(--color-status-bg-green);
   color: var(--color-green);
   font-weight: 600;
   border: 1px solid var(--color-green);
 }
 
 .status-red {
-  background-color: var(--color-white);
+  background-color: var(--color-status-bg-red);
   color: var(--color-red);
   font-weight: 600;
   border: 1px solid var(--color-red);
@@ -340,9 +347,11 @@ body {
   .counter-section {
     flex-direction: column;
   }
+
   .logo {
     font-size: 1.5rem;
   }
+
   .job-details {
     margin: 10px 0;
   }
