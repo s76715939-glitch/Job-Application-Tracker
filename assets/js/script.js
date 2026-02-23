@@ -1,6 +1,9 @@
 const cardSection = document.querySelector(".card-section");
 const jobCountOf = document.querySelector(".jobs-count-of");
-
+const themeSwitch = document.querySelector('.theme-switch');
+themeSwitch.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+});
 const menuContainer = document.querySelector(".menu-items");
 const menuItem = menuContainer.querySelectorAll(".menu-item");
 menuContainer.addEventListener("click", (e) => {

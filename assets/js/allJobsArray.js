@@ -1,5 +1,4 @@
-let jobs = [
-  {
+let jobs = [{
     companyName: "Mobile First Cord",
     position: "React Native Developer",
     location: "Remote",
@@ -8,8 +7,7 @@ let jobs = [
       from: 130000,
       to: 175000,
     },
-    description:
-      "Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.",
+    description: "Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.",
     status: false,
   },
   {
@@ -21,8 +19,7 @@ let jobs = [
       from: 60000,
       to: 90000,
     },
-    description:
-      "Develop responsive websites and optimize performance for local and international clients.",
+    description: "Develop responsive websites and optimize performance for local and international clients.",
     status: false,
   },
   {
@@ -34,8 +31,7 @@ let jobs = [
       from: 95000,
       to: 120000,
     },
-    description:
-      "Work on scalable backend APIs and modern frontend frameworks to deliver SaaS products.",
+    description: "Work on scalable backend APIs and modern frontend frameworks to deliver SaaS products.",
     status: false,
   },
   {
@@ -47,8 +43,7 @@ let jobs = [
       from: 70000,
       to: 100000,
     },
-    description:
-      "Design and maintain Android applications with a focus on user experience and performance.",
+    description: "Design and maintain Android applications with a focus on user experience and performance.",
     status: false,
   },
   {
@@ -60,8 +55,7 @@ let jobs = [
       from: 40000,
       to: 60000,
     },
-    description:
-      "Implement pixel-perfect UI designs using React and Tailwind CSS.",
+    description: "Implement pixel-perfect UI designs using React and Tailwind CSS.",
     status: false,
   },
   {
@@ -73,8 +67,7 @@ let jobs = [
       from: 80000,
       to: 110000,
     },
-    description:
-      "Develop and optimize APIs, ensuring secure and efficient data flow across systems.",
+    description: "Develop and optimize APIs, ensuring secure and efficient data flow across systems.",
     status: false,
   },
   {
@@ -86,8 +79,7 @@ let jobs = [
       from: 90000,
       to: 130000,
     },
-    description:
-      "Create immersive gaming experiences using Unity and C# for mobile and desktop platforms.",
+    description: "Create immersive gaming experiences using Unity and C# for mobile and desktop platforms.",
     status: false,
   },
   {
@@ -99,8 +91,7 @@ let jobs = [
       from: 100000,
       to: 140000,
     },
-    description:
-      "Build secure financial applications integrating payment gateways and analytics dashboards.",
+    description: "Build secure financial applications integrating payment gateways and analytics dashboards.",
     status: false,
   },
   {
@@ -112,8 +103,7 @@ let jobs = [
       from: 75000,
       to: 105000,
     },
-    description:
-      "Develop online learning platforms with interactive features and scalable architecture.",
+    description: "Develop online learning platforms with interactive features and scalable architecture.",
     status: false,
   },
   {
@@ -125,8 +115,7 @@ let jobs = [
       from: 85000,
       to: 120000,
     },
-    description:
-      "Build healthcare apps for iOS devices, ensuring compliance with medical data standards.",
+    description: "Build healthcare apps for iOS devices, ensuring compliance with medical data standards.",
     status: false,
   },
 ];

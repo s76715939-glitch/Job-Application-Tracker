@@ -1,51 +1,50 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Job Application Tracker</title>
-    <link
-      rel="shortcut icon"
-      href="./assets/images/jobs.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body class="font-geist">
-    <section class="top-section">
-      <h2 class="logo">
-        <span>Job Application Tracker</span>
-      </h2>
-      <div class="counter-section">
-        <div class="counter-card">
-          <span>Total</span>
-          <h2 class="count" id="total-job-count">0</h2>
-        </div>
-        <div class="counter-card">
-          <span>Interview</span>
-          <h2 class="count" id="total-interview-count">0</h2>
-        </div>
-        <div class="counter-card">
-          <span>Rejected</span>
-          <h2 class="count" id="total-reject-count">0</h2>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Application Tracker</title>
+  <link rel="shortcut icon" href="./assets/images/jobs.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body class="font-geist">
+  <section class="top-section">
+    <h2 class="logo">
+      <span>Job Application Tracker</span>
+      <img class="theme-switch" src="./assets/images/theme-switch.png" alt="">
+    </h2>
+    <div class="counter-section">
+      <div class="counter-card">
+        <span>Total</span>
+        <h2 class="count" id="total-job-count">0</h2>
       </div>
-    </section>
-    <section class="menu-heading-section">
-      <h3 class="menu-heading">Available Jobs</h3>
-      <p class="jobs-count-of">0 jobs</p>
-    </section>
-    <section class="menu-section">
-      <ul class="menu-items">
-        <li class="menu-item menu-active" id="all">All</li>
-        <li class="menu-item" id="interview">Interview</li>
-        <li class="menu-item" id="rejected">Rejected</li>
-      </ul>
-    </section>
-    <section class="card-section"></section>
-    <script src="./assets/js/allJobsArray.js"></script>
-    <script src="./assets/js/allFunctions.js"></script>
-    <script src="./assets/js/script.js"></script>
-  </body>
+      <div class="counter-card">
+        <span>Interview</span>
+        <h2 class="count" id="total-interview-count">0</h2>
+      </div>
+      <div class="counter-card">
+        <span>Rejected</span>
+        <h2 class="count" id="total-reject-count">0</h2>
+      </div>
+    </div>
+  </section>
+  <section class="menu-heading-section">
+    <h3 class="menu-heading">Available Jobs</h3>
+    <p class="jobs-count-of">0 jobs</p>
+  </section>
+  <section class="menu-section">
+    <ul class="menu-items">
+      <li class="menu-item menu-active" id="all">All</li>
+      <li class="menu-item" id="interview">Interview</li>
+      <li class="menu-item" id="rejected">Rejected</li>
+    </ul>
+  </section>
+  <section class="card-section"></section>
+  <script src="./assets/js/allJobsArray.js"></script>
+  <script src="./assets/js/allFunctions.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
