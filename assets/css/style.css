@@ -15,6 +15,7 @@
 body {
   background-color: #f8fafc;
   font-size: 16px;
+  overflow: scroll;
 }
 
 .top-section {
@@ -117,6 +118,7 @@ body {
   margin-right: 8px;
   text-align: center;
   cursor: pointer;
+  user-select: none;
 }
 
 .menu-active {
@@ -135,19 +137,24 @@ body {
 .job-card {
   background-color: #fff;
   border: 1px solid #f1f2f4;
-  border-left: 4px solid #f1f2f4;
-  border-radius: 8px;
+  border-left: 5px solid #f1f2f4;
+  border-radius: 12px;
   padding: 24px;
   position: relative;
   margin-bottom: 16px;
+  transition: 0.2s;
 }
 
 .job-card-interview {
-  border-left: 4px solid #10b981;
+  border-left: 5px solid #10b981;
 }
 
 .job-card-rejected {
-  border-left: 4px solid #ef4444;
+  border-left: 5px solid #ef4444;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
 }
 
 .company-name {
@@ -194,8 +201,6 @@ body {
   border: 1px solid transparent;
   transition: 0.2s;
 }
-
-
 
 .status-green {
   background-color: #fff;
@@ -261,7 +266,7 @@ body {
   background-color: #fff;
   width: 42px;
   height: 42px;
-  border: 1px solid #F1F2F4;
+  border: 1px solid #f1f2f4;
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -273,7 +278,7 @@ body {
 }
 
 .delete-card:hover {
-  background-color: #F1F2F4;
+  background-color: #f1f2f4;
 }
 
 .delete-card img {
@@ -290,12 +295,12 @@ body {
   font-size: 1.5rem;
   line-height: 32px;
   font-weight: 600;
-  color: #002C5C;
+  color: #002c5c;
 }
 
 .no-job-card p {
   font-size: 1rem;
   line-height: 22px;
   font-weight: 400;
-  color: #64748B;
+  color: #64748b;
 }

@@ -1,0 +1,132 @@
+let jobs = [
+  {
+    companyName: "Mobile First Cord",
+    position: "React Native Developer",
+    location: "Remote",
+    type: "Full-time",
+    salary: {
+      from: 130000,
+      to: 175000,
+    },
+    description:
+      "Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.",
+    status: "interview",
+  },
+  {
+    companyName: "TechHive Solutions",
+    position: "Web Developer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: {
+      from: 60000,
+      to: 90000,
+    },
+    description:
+      "Develop responsive websites and optimize performance for local and international clients.",
+    status: "interview",
+  },
+  {
+    companyName: "CloudNest Ltd.",
+    position: "Full Stack Developer",
+    location: "Remote",
+    type: "Contract",
+    salary: {
+      from: 95000,
+      to: 120000,
+    },
+    description:
+      "Work on scalable backend APIs and modern frontend frameworks to deliver SaaS products.",
+    status: "rejected",
+  },
+  {
+    companyName: "BrightApps Inc.",
+    position: "Android App Developer",
+    location: "Chittagong",
+    type: "Full-time",
+    salary: {
+      from: 70000,
+      to: 100000,
+    },
+    description:
+      "Design and maintain Android applications with a focus on user experience and performance.",
+    status: "rejected",
+  },
+  {
+    companyName: "NextGen Webworks",
+    position: "Frontend Engineer",
+    location: "Remote",
+    type: "Part-time",
+    salary: {
+      from: 40000,
+      to: 60000,
+    },
+    description:
+      "Implement pixel-perfect UI designs using React and Tailwind CSS.",
+    status: false,
+  },
+  {
+    companyName: "DataBridge Analytics",
+    position: "Backend Developer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: {
+      from: 80000,
+      to: 110000,
+    },
+    description:
+      "Develop and optimize APIs, ensuring secure and efficient data flow across systems.",
+    status: false,
+  },
+  {
+    companyName: "GameForge Studios",
+    position: "Unity Developer",
+    location: "Remote",
+    type: "Contract",
+    salary: {
+      from: 90000,
+      to: 130000,
+    },
+    description:
+      "Create immersive gaming experiences using Unity and C# for mobile and desktop platforms.",
+    status: false,
+  },
+  {
+    companyName: "FinTech Innovators",
+    position: "Full Stack Developer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: {
+      from: 100000,
+      to: 140000,
+    },
+    description:
+      "Build secure financial applications integrating payment gateways and analytics dashboards.",
+    status: false,
+  },
+  {
+    companyName: "EduTech Global",
+    position: "Web Application Developer",
+    location: "Remote",
+    type: "Full-time",
+    salary: {
+      from: 75000,
+      to: 105000,
+    },
+    description:
+      "Develop online learning platforms with interactive features and scalable architecture.",
+    status: false,
+  },
+  {
+    companyName: "HealthSync Systems",
+    position: "iOS Developer",
+    location: "Dhaka",
+    type: "Full-time",
+    salary: {
+      from: 85000,
+      to: 120000,
+    },
+    description:
+      "Build healthcare apps for iOS devices, ensuring compliance with medical data standards.",
+    status: "rejected",
+  },
+];
